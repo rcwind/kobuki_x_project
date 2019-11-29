@@ -7,5 +7,8 @@
 
   <!-- Defines the kobuki component tag. -->
   <xacro:include filename="$(find kobuki_x_description)/urdf/bases/kobuki_xs.urdf.xacro" />
+  <!-- <xacro:include filename="$(find turtlebot_description)/urdf/sensors/asus_xtion_pro.urdf.xacro"/> -->
+
   <kobuki_xs />
+  <!-- <sensor_asus_xtion_pro          parent="base_link"/> -->
 </robot>
